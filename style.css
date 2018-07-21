@@ -11,8 +11,14 @@
 
 .container {
   font-family: Roboto;
-  /* display: flex; */
+  
+}
 
+.banner {
+  background-image: url("images/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  height: 850px;
 }
 
 .logo {
@@ -26,14 +32,14 @@
 ul {
   float: right;
   list-style-type: none;
-   display: flex;
+  display: flex;
   justify-content: center;
 }
 
 li {
   display: inline;
   padding: 15px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -41,4 +47,32 @@ li {
 
 li>a {
   text-decoration: none;
+  color: #FFF;
+}
+
+.bannercontent {
+  color: #FFF;
+  padding-top: 19%;
+  padding-left: 60%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+.bannercontent>h1 {
+  font-weight: 300;
+}
+
+.bannercontent>p {
+  text-align: justify;
+}
+
+.bannercontent>button {
+  padding: 2% 4% 2% 4%;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: #757ff4;
+  border-color: #757ff4;
+  border-radius: 1px;
+  color: #FFF;
 }
