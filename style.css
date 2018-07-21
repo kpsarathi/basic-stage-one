@@ -11,7 +11,7 @@
 
 .container {
   font-family: Roboto;
-  
+
 }
 
 .banner {
@@ -40,7 +40,7 @@ li {
   display: inline;
   padding: 15px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -58,12 +58,14 @@ li>a {
   justify-content: center;
 }
 
-.bannercontent>h1 {
+.bannercontent>h1,.aboutus>h1 {
   font-weight: 300;
+  text-transform: capitalize;
 }
 
 .bannercontent>p {
   text-align: justify;
+
 }
 
 .bannercontent>button {
@@ -75,4 +77,23 @@ li>a {
   border-color: #757ff4;
   border-radius: 1px;
   color: #FFF;
+  margin-top: 25px;
+}
+.aboutus{
+  color:#212020c4;
+  text-align: center;
+  justify-content: center;
+  padding-top: 35px;
+
+}
+
+.aboutus > p {
+  text-align: center;
+  padding: 0px 350px 30px 350px;
+
+}
+
+.aboutus >span{
+  text-transform: capitalize;
+  padding-bottom: 40px;
 }
