@@ -118,3 +118,9 @@ li>a {
   font-weight: 300;
   letter-spacing: 1px;
 }
+.wallpaper{
+  background-image: url("images/wallpaper2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  height: 400px;
+}
