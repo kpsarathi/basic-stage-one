@@ -1,2 +1,0 @@
-# basic-stage-one
-Demo
